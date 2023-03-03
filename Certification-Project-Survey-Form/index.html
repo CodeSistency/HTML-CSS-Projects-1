@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@500&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="survey-form">
+        <h1 id="title">Survey Form</h1>
+        <hr>
+        <p id="description">This is a form to complete the Free Code Camp Certification</p>
+        <section>
+            <label for="name" id="name-label">
+                Enter your name:<input type="text" id="name" placeholder="Name..." required>
+            </label>
+            <label for="email" id="email-label">
+                Enter your Email:<input type="email" id="email" placeholder="Email..." required>
+            </label>
+            <label for="number" id="number-label">
+                Enter your Number:<input type="number" id="number" placeholder="Age..." min="10" max="20" required>
+            </label>
+        </section>
+        <section>
+            <select name="dropdown" id="dropdown">
+                <option value="Select one" selected>Select one</option>
+                <option value="1">FC Barcelona</option>
+                <option value="2">Real Madrid</option>
+                <option value="3">AC Milan</option>
+            </select>
+        </section>
+
+        <section>
+            
+            <label for="radio" class="label">
+                <input type="radio" name="radio" id="messi" class="radio" value="messi">Messi
+            </label>
+            <label for="radio" class="label">
+                <input type="radio" name="radio" id="" class="radio" value="cristiano">Cristiano
+            </label>
+      
+            <label for="" class="label">
+                <input type="checkbox" name="" id="" value="neymar" class="checkbox">Neymar
+            </label>
+            <label for="" class="label">
+                <input type="checkbox" name="" id="" value="mbappe" class="checkbox">Mbappe
+            </label>
+
+        </section>
+        
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        
+            <input type="submit" value="Submit" id="submit" class="submit">
+    </form>
+</body>
+</html>
